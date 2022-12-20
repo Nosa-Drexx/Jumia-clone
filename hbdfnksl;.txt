@@ -1,0 +1,9 @@
+<div><span class="app-store">Download on the</span><br><span class="google">App Store</span></div>
+<div><span class="app-store">GET IT ON</span><br><span class="google">Google Play</span></div>
+.form .fill .personal2 .app div {
+   margin: 0% 0% 0% 30%;
+}
+.form .fill .personal2 button .google {
+   font-weight: bold;
+   font-size: 1.5em;
+}

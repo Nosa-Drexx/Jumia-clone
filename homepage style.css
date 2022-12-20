@@ -1,0 +1,1392 @@
+*{
+   box-sizing: border-box;
+}
+body { 
+    margin: 0px;
+}
+.head {
+    background-color: black;
+    max-width: 100%;
+    color: white;
+    padding: 1% 0px 1% 10%;
+}
+.head b {
+    font-size: 2em;
+}
+.nav1 {
+    height: 50px;
+    padding: 0%;
+    background-color: #eee;
+}
+.sell {
+    height: 20px;
+    width: 15%;
+    display: inline-block;
+    float: left;
+    margin-top: 1%;
+    margin-left: 5%;
+}
+.nav1 .sell .sell3 {
+    display: inline-block;
+    color: rgba(0,0,170,1);
+    width: 100%;
+    height: 100%;
+    margin: 0%;
+}
+.nav1 .first {
+    display: inline-block;
+    width: 40%;
+    margin-left: 15%; 
+    height: 100%;  
+}
+.nav1 .first .gen {
+    font-family: verdana, arial, sans-serif;
+    font-weight: bold;
+    height: 100%;
+    text-decoration: none;
+    width: 20%;
+    list-style-type: none;
+    display: inline-block; 
+    float: left;  
+}
+.nav1 .first .logo3 {
+    background-image: url("Icons/market.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-color: #eee;
+    height: 60%;
+    margin-top: 1.5%;
+}
+.nav1 .first .gen .nav3 {
+    width: 100%;
+    font-family: verdana, arial, sans-serif;
+    font-weight: bold;
+    height: 100%;
+    font-size: 1em;
+    text-align: center;
+    padding-top: 10%;
+    color: rgba(0,0,170,1);
+    text-decoration: none;
+    margin-top: 0%;
+    display: inline-block;
+}
+.first .gen .nav3:hover {
+    color: orange;
+}
+.bar {
+    max-width: 100%;
+    background-color: white;
+    position:sticky; 
+    height: 80px;
+    top: 0px;
+    z-index: 3;
+}
+
+.bar .small {
+    display: none;
+}
+.second {
+    padding: 0.8% 0%;
+    font-weight: bold;
+}
+
+.second li {
+    list-style-type: none;
+    float: left;
+}
+.bar .second .rest {
+    display: none;
+}
+.around2 {
+    margin-left: 10%;
+    width: 50%;
+}
+.logo {
+    display: inline-block;
+    background-image: url("Icons/market.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 10%;
+    height: 40px;
+    margin-left: 1%;
+}
+.around {
+    width: 100%;
+    margin:auto;
+    float: left;
+}
+.input1 {
+    background-image: url("Icons/search.png");
+    background-size: 8% 100%;
+    background-repeat: no-repeat;
+    background-color: white;
+    width: 85%;
+    padding: 8px 5px;
+    font-size: 1.2em;
+    border-radius: 6px;
+    padding-left: 7%;
+}
+.search {
+    background-color: rgba(255,155,0,1);
+    font-weight: bold;
+    box-shadow: 3px 5px 16px rgba(0,0,0,0.2);
+    color: white;
+    width: 14%;
+    border: none;
+    border-radius: 6px;
+    padding: 16px 15px;
+    cursor: pointer;
+}
+.search:hover {
+    background-color: rgba(240,140,0,1);
+}
+.background {
+    background-color: black;
+}
+
+.second li a {
+    text-decoration: none;
+    color: black;
+    padding: 1% 0.7%;
+    margin: 0% 1%;
+    border-radius: 5px;
+}
+
+.third {
+    width: 6.5%;
+    position: relative; /* to contain the hidden detor*/
+    margin: 0.5% 0.3%;
+    display: inline-block;
+    height: 40px;
+    padding-top: 0.5%;
+}
+.account {
+    width: 9%;
+    margin-left: 1%;
+    padding-left: 2.5%;
+    background-image: url("Icons/use.jpeg");
+    background-size: 30% 100%;
+    background-repeat: no-repeat;
+}
+.second li a:hover {
+    color: orange;
+}
+
+.detor {
+     display: none;
+     background-color: #eee;
+     box-shadow: 0px 8px 20px 0px rgba(0,0,0,0.2);
+     position: absolute;
+     top: 105%;
+     left: 0px;
+     margin: 0px;
+     font-family: time-new-romans;  
+     min-width: 200px;
+     z-index: 3;
+}
+.detor .link  {
+     margin: 0px;
+     color: black;
+     text-decoration: none;  
+     display: block;
+     padding: 15px; 
+     font-weight: normal; 
+}
+.detor .link:hover {
+    color: black;
+    background-color: #ddd;
+    font-weight: bold;
+}
+.third:hover .detor {
+    display: block;
+}
+.in {
+    border-bottom: 2px solid #ddd;
+    height: 80px;
+
+}
+.sign {
+    width: 160px;
+    height: 40px;
+    padding: 5% 30%;
+    margin-left: 10%;
+    margin-top: 10%;
+    font-size: 0.7em;
+    background-color: rgba(255,155,0,1);
+    border: none; 
+    box-shadow: 0px 8px 20px 0px rgba(0,0,0,0.2);
+    border-radius: 5px;
+    color: white;  
+    cursor: pointer; 
+    text-align: left;
+}
+.sign:hover {
+    background-color: rgba(240,140,0,1);
+}
+.diff {
+    border-bottom: none;
+    border-top: 2px solid #ddd;
+}
+.absolute {
+    display: none;
+}
+.side {
+    max-width: 90%;
+    margin: auto;
+}
+.responsive {
+    height: 393px;
+}
+.flex {
+    height: 100%;
+    float: left;
+}
+.flex1 {
+    display: block;
+    width: 16%;
+    height: 99.2%;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+}
+.flex1:hover {
+    width: 16%;
+    border-radius: 5px 0px 0px 5px;
+}
+.me {
+    list-style-type: none;
+    margin: 0px;
+    display: inline-block;
+    width: 100%;
+    height: 8.35%;
+    position: relative;
+}
+
+.flex1 .me .fink { 
+    display: inline-block;
+    padding-top: 1%;
+    padding-left: 5%;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    text-decoration: none;
+    color: black;
+    font-size: 0.9em;
+
+}
+.me .fink:hover {
+    color: orange;
+}
+.flex .me .flex2 {
+    display: none;
+    width: 385%;
+    height: 1200%;
+    column-count: 3;
+    border-radius: 0px 5px 5px 0px;
+    border-left: 1px solid #ddd;
+    position: absolute;
+    left: 100%;
+    margin-right: 0px;
+    top: 0px;
+    background-color: white;
+    z-index: 2;
+    
+}
+.flex .me .flex2 .hide {
+    display: inline-block;
+    width: 100%;
+    height: 6%;
+    padding-left: 3%;
+    background-color: transparent;
+    text-decoration: none;
+    color: #444;
+    font-size: 0.8em;
+}
+.flex .me .flex2 .hide:hover {
+    color: black;
+    font-weight: bold;
+}
+.flex .me .flex2 .border {
+    display: inline-block;
+    width: 95%;
+    height: 8%;
+    font-weight: bold;
+    font-size: 0.8em;
+    margin: 5% 0% 0% 3%;
+    padding-bottom: 0px;
+    border-bottom: 1px solid #eee;
+    background-color: transparent;
+    text-decoration: none;
+    color: black;
+    font-size: 0.9em;
+}
+.flex .me .flex2 .alone {
+    border-bottom: none;
+}
+.flex .me .flex2 .border:hover {
+    color: orange;
+}
+.flex1 .me:hover .flex2 {
+    display: block;
+}
+.flex3 {
+   margin: 0% 0.7% 0% 1.5%;
+   width: 60%;
+   height: 99.2%;
+   background-color: white;
+   border-radius: 10px;
+   overflow: hidden;
+}
+@-webkit-keyframes nosa {
+   0% {left: 0px;}
+   10% {left: 0px;}
+   20% {left: -100%;}
+   30% {left: -100%;}
+   40% {left: -200%;}
+   50% {left: -200%;}
+   90% {left: 0px;}
+   100% {left: 0px;}
+}
+.flex3 .flow{
+   width: 500%;
+   position: relative;
+   -webkit-animation-name: nosa;
+   -webkit-animation-duration: 33s;
+   -webkit-animation-iteration-count: infinite;
+   -webkit-animation-play-state: running;
+   
+}
+.flex3 .flow .add {
+   width:20%; 
+   background-color: blue; 
+   height: 100%;
+   margin: 0px;
+   float: left;
+   border: none;
+}
+.flex3 .flow .add img {
+   height: 393px; 
+   margin:0px; 
+   border:none; 
+   border-radius: 0px; 
+}
+.flex4 {
+    width: 20.5%;
+    height: 47.2%;
+    background: white;
+    margin: 0% 0% 0.7% 1.2%;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+/*slide animation*/
+@-webkit-keyframes nosa2 {
+   0% {left: 0px;}
+   25% {left: 0px;}
+   75% {left: -100%;}
+   100% {left: 0px;}
+}
+
+.flex4 .flow2 { 
+   width: 200%;
+   position: relative;
+   -webkit-animation-name: nosa2;
+   -webkit-animation-duration: 3s;
+   -webkit-animation-iteration-count: infinite;
+   -webkit-animation-direction: alternate;
+   -webkit-animation-play-state: running;
+}
+.flex .flow2 .add2 {
+   width:50%;
+   float: left;
+   margin: 0px;
+   border: none;
+   max-height: 185px;
+}
+.flex5 {
+   margin: 0.7% 0% 0% 1.2%;
+}
+.flex5 .flow2  { 
+    -webkit-animation-delay: 2s;
+}
+.clear {
+    clear: both;
+    max-width: 100%;
+    margin: auto;
+    height: 100px;
+}
+.clear .flex6 {
+    height: 100%;
+}
+.clear .flex7 {
+    display: none;
+}
+.clear .flex6 .product  {
+    list-style-type: none;
+    float: left;    
+    margin: 1.5% 1.2%;
+    width: 23.2%;
+    height: 40%;
+}
+
+/*align the first box with its outer box*/
+.clear .flex6 .product:first-child  {
+    margin-left: 0px;
+}
+
+/*align the last box with its outer box*/
+.clear .flex6 .product:last-child  {
+    margin-right: 0px;
+}
+.clear .flex6 .product .pro {
+    display: inline-block;
+    margin: 0px;
+    width: 100%;
+    height: 60px;
+    border-radius: 5px;
+    background-color: white;
+}
+.clear2 {
+    max-width: 100%;
+    margin: 0px;
+    height: 300px;
+    background-color: white;
+    border-radius: 5px;
+    color: black;
+    overflow: hidden;
+}
+.clear2 .con {
+    width: 99%;
+    height: 80%;
+    margin: 0px 5px;
+    overflow: hidden;
+}
+.clear2 .con:hover {
+    overflow-x: auto;
+}
+.clear2 .con .advert-container {
+    width: 400%;
+    height: 100%;  
+}
+.clear2 .con .advert-container .phones {
+    width: 4%;
+    display: inline-block;
+    margin: 5px 0.1px 5px 5px;
+    height: 96%;
+    border-radius: 5px;
+    background-color: #eee;
+}
+.clear2 .con .advert-container .phones:first-child {
+    margin-left: 0px;
+}
+.clear2 .con .advert-container .phones:last-child {
+    width: 3.9%;
+}
+.clear2 .con .advert-container .phones:last-child:hover {
+    width: 4.0%;
+}
+.clear2 .con .advert-container .phones:hover{
+    width: 4.1%;
+    height: 96.1%;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.6);
+}
+.clear2 .con .advert-container .phones a {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+.credits {
+   background-color: white;
+   border-radius: 5px 5px 0px 0px;
+   width: 100%;
+}
+.credits .cre {
+   width: 97%;
+   margin: 0px auto;
+}
+.hid {
+    margin: 0px;
+}
+.credits .cre p:last-child {
+   margin-bottom: 0px;
+   padding-bottom: 5px;
+}
+.credits .cre p {
+   color: black;
+   text-align: justify;
+   font-size: 0.9em;
+}
+.credits .cre #big {
+   padding: 10px 0px 0px 0px;
+   font-size: 1.3em;
+}
+.credits .cre p a {
+   color: black;
+   font-weight: bold;
+}
+.credits .show {
+   display: none;
+}
+.hid {
+   border-radius: 0px 0px 5px 5px;
+}
+/*form fill*/
+.form {
+    background-color: rgb(100,0,100);
+    height: 150px;
+}
+.form .fill {
+    width: 90%;
+    margin: auto;
+    height: 100%;  
+}
+.form .fill .personal {
+    margin: 0.35% 0% 0% 20%;
+    width: 47%;
+    height: 97%;
+    float: left;
+}
+.form .fill .personal p {
+    color: white;
+    margin: 10px 0px 3px 0px;
+    font-size: 0.9em;
+}
+.form .fill .personal .margin {
+    margin-bottom: 2.7%;
+}
+.form .fill .personal input:hover {
+   border: 1px solid orange;
+   color: orange;
+}
+.form .fill .personal .email {
+    background-image: url("Icons/email.png");
+    background-size: 9% 90%;
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-color: white;
+    width: 65%;
+    border-radius: 5px;
+    padding: 8px 5px;
+    padding-left: 7%;
+    font-size: 0.9em;
+}
+.form .fill .personal .email:hover {
+    color: black;
+}
+.form .fill .personal .gender {
+    color: white;
+    border-radius: 5px;
+    border: 1px solid white;
+    width: 16%;
+    background-color: transparent;
+    font-size: 0.8em;
+    padding: 10px;   
+}
+.form .fill .personal .gender:hover {
+    cursor: pointer;
+}
+.form .fill .personal2 {
+    background-image: url("Icons/square2.png");
+    background-size: 23% 50%;
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    width: 25%;
+    height: 97%;
+    margin: 0.35% 3% 0% 3%;
+    display: inline-block;
+}
+.form .fill .personal2 p {
+    margin-left: 25%;
+}
+.form .fill .personal2 .adjust {
+   margin-top: 2px;
+}
+.form .fill .personal2 .app {
+   border-radius: 5px;
+   width: 45%;
+   height: 28%;
+   border: 1px solid white;
+   background-color: transparent;
+   text-align: justify;
+   font-size: 0.6em;
+   color: white;
+}
+.form .fill .personal2  .app:hover {
+   border: 1px solid orange;
+   cursor: pointer;
+}
+.form .fill .personal2 .applestore {
+    background-image: url("Icons/applestore2.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.form .fill .personal2 .playstore {
+    background-image: url("Icons/playstore2.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.information {
+    background-color: #222;
+    height: 500px;
+    font-size: 0.9em;
+}
+.information .information1 {
+    width: 90%;
+    height: 430px;
+    margin: auto;
+    border-bottom: 0.2px solid #333;
+}
+.information .information1 .information2 {
+    float: left;
+    width: 24%;
+    height: 80%;
+    margin: 0%;
+    background-color: transparent;
+    color: #ddd;
+    padding: 0px;
+}
+.information .information1 .information2 li {
+    list-style-type: none;
+    color: #ddd;
+    margin: 0px;
+}
+.information .information1 .information2 .info {
+    margin: 30px 0px 20px 0px;
+}
+.information .information1 .information2 .inside {
+    margin: 5px 0px;
+    color: #ddd;
+    text-decoration: none;
+}
+.information .information1 .information2 .inside a {
+    color: #aaa;
+    text-decoration: none;
+}
+.information .information1 .information2 .inside a:hover {
+    text-decoration: underline;    
+}
+.information  .appear {
+    display: none;
+    float: left;
+}
+.information .rights {
+    display: none;
+}
+.fixed  {
+    background-color: #ddd;
+    position: fixed;
+    left: 5%;
+    bottom: 0px;
+    width: 90%;
+    font-size: 1.2em;
+    margin: auto;
+    color: black;
+    height: 40px;
+}
+.fixed p{
+    margin: 0.7% 1.5%;
+}
+.fixed p a{
+    font-size: 0.85em;
+    text-decoration: none;
+}
+.fixed p a:hover{
+    text-decoration: underline;
+}
+
+
+
+/*For small screeens*/
+
+@media only screen and (max-width: 1135px) {
+.help .detor {
+     margin-left: -200%;
+}
+.fixed  {
+    height: 50px;
+}
+}
+
+@media only screen and (max-width: 990px) {
+.around2 {
+    width: 57%;
+    margin-left: 3%;
+}
+.flex3 {
+    overflow-x: auto;
+}
+.clear2 .con {
+    overflow-x: auto;
+}
+.form .fill .personal .gender {
+    font-size: 0.65em;
+}
+}
+
+@media only screen and (max-width: 900px) {
+.around2 {
+    width: 62%;
+    margin-left: 2%;
+}
+}
+
+@media only screen and (max-width: 850px) {
+
+.absolute {
+    display: none;
+    position: fixed;
+    z-index: 4;
+    background-color: white;
+    height: 100%;
+    width: 90%;
+    left: 0px;
+    top: 0px;
+}
+.absolute .get {
+    height: 50px;
+    border-bottom: 1px solid #eee;
+    display: inline-block;
+    width: 100%;
+    list-style-type: none;
+}
+
+/*background-image for navigations*/
+
+.absolute .live {
+    background-image: url("Icons/chat.png");
+    background-size: 5% 100%;
+    background-repeat: no-repeat;
+    background-position: 1% 0%;
+}
+.absolute .order {
+    background-image: url("Icons/orders.png");
+    background-size: 5% 100%;
+    background-repeat: no-repeat;
+    background-position: 1% 0%;
+}
+.absolute .inbox {
+    background-image: url("Icons/inbox.png");
+    background-size: 5% 100%;
+    background-repeat: no-repeat;
+    background-position: 1% 0%;
+}
+.absolute .pending {
+    background-image: url("Icons/pending.png");
+    background-size: 5% 100%;
+    background-repeat: no-repeat;
+    background-position: 1% 0%;
+}
+.absolute .square {
+    background-image: url("Icons/ticket.png");
+    background-size: 5% 100%;
+    background-repeat: no-repeat;
+    background-position: 1% 0%;
+}
+.absolute .saved {
+    background-image: url("Icons/heart.png");
+    background-size: 5% 100%;
+    background-repeat: no-repeat;
+    background-position: 1% 0%;
+}
+.absolute .super {
+    background-image: url("Icons/apple.png");
+    background-size: 5% 100%;
+    background-repeat: no-repeat;
+    background-position: 1% 0%;
+}
+.absolute .beauty {
+    background-image: url("Icons/saloon.png");
+    background-size: 5% 100%;
+    background-repeat: no-repeat;
+    background-position: 1% 0%;
+}
+.absolute .office {
+    background-image: url("Icons/office.png");
+    background-size: 5% 100%;
+    background-repeat: no-repeat;
+    background-position: 1% 0%;
+}
+.absolute .tablet {
+    background-image: url("Icons/device.png");
+    background-size: 5% 100%;
+    background-repeat: no-repeat;
+    background-position: 1% 0%;
+}
+.absolute .computer {
+    background-image: url("Icons/computer.png");
+    background-size: 5% 100%;
+    background-repeat: no-repeat;
+    background-position: 1% 0%;
+}
+.absolute .electronics {
+    background-image: url("Icons/electronics.png");
+    background-size: 5% 100%;
+    background-repeat: no-repeat;
+    background-position: 1% 0%;
+}
+.absolute .women {
+    background-image: url("Icons/gown.png");
+    background-size: 5% 100%;
+    background-repeat: no-repeat;
+    background-position: 1% 0%;
+}
+.absolute .men {
+    background-image: url("Icons/shirt.png");
+    background-size: 5% 100%;
+    background-repeat: no-repeat;
+    background-position: 1% 0%;
+}
+.absolute .baby {
+    background-image: url("Icons/baby.png");
+    background-size: 5% 100%;
+    background-repeat: no-repeat;
+    background-position: 1% 0%;
+}
+.absolute .game {
+    background-image: url("Icons/game.png");
+    background-size: 5% 100%;
+    background-repeat: no-repeat;
+    background-position: 1% 0%;
+}
+.absolute .sporting {
+    background-image: url("Icons/barbell.png");
+    background-size: 5% 100%;
+    background-repeat: no-repeat;
+    background-position: 1% 0%;
+}
+.absolute .car {
+    background-image: url("Icons/car.png");
+    background-size: 5% 100%;
+    background-repeat: no-repeat;
+    background-position: 1% 0%;
+}
+.absolute .star {
+    background-image: url("Icons/star.png");
+    background-size: 5% 100%;
+    background-repeat: no-repeat;
+    background-position: 1% 0%;
+}
+.absolute .shoot {
+    background-image: url("Icons/star2.png");
+    background-size: 5% 100%;
+    background-repeat: no-repeat;
+    background-position: 1% 0%;
+}
+
+/*end of background-image*/
+
+.absolute .get div {
+    display: inline-block;
+    width: 8%;
+    height: 80%;
+    margin: 0.5% 2%;
+}
+.absolute .get div button {
+    background-image: url("Icons/cancel.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-color: white;
+    border: 0px;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+.absolute .get .logo2 {
+    display: inline-block;
+    width: 50%;
+    margin: 0.5% 0%;
+    background-image: url("Icons/market.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-color: white;
+}
+.absolute .get a {
+    display: inline-block;
+    padding: 2% 7%;
+    width: 100%;
+    height: 100%;
+    color: black;
+    text-decoration: none;
+}
+.absolute .bigger  {
+    height: 250px;
+}
+.absolute .bigger .try {
+    display: inline-block;
+    color: orange;
+    padding: 2%;
+    width: 100%;
+    height: 20%;
+    font-weight: bold;
+}
+.absolute .bigger .got {
+    height: 16%;
+    margin: 0px;
+    width: 100%; 
+}
+.absolute .bigger .fry {
+    text-decoration: underline;
+    float: right;
+    color: black;
+    margin: 0.2% 0%;
+}
+.absolute .bigger .got a {
+    display: inline-block;
+    padding: 1% 7%;
+    color: black;
+    text-decoration: none;
+}
+.absolute .huge  {
+    height: 600px;
+}
+.absolute .huge .try {
+    height: 8%
+}
+.absolute .huge .got {
+    height: 7.6%;
+}
+.absolute .large {
+    height: 300px;
+    width: 100%;
+    margin: 0px;
+}
+.absolute .large .try {
+    height: 15%;
+}
+.absolute .large .got {
+    height: 14%;
+}
+.absolute .another {
+    border-bottom: none;
+}
+.absolute .another a {
+        padding: 2%;
+}
+.nav1 {
+    display: none;
+}
+.second .around2 {
+    visibility: hidden;
+    width: 25%;
+}
+.input1 {
+    width: 40%;
+}
+.search {
+    width: 25%;
+}
+.third {
+    width: 5%;
+    position: relative; /* to contain the hidden detor*/
+    margin: 1%;
+    height: 30px;
+}
+.logo {
+    width: 15%;
+}
+.cart {
+    background-image: url("Icons/car.jpeg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.account {
+    margin-left: 18%;
+    background-size: 100% 100%; 
+}
+.account span {
+    display: none;
+}
+.help {
+    display: none;
+}
+.third span {
+    display: none;
+}
+.bar {
+    height: 100px;
+}
+.bar .small {
+    display: inline-block;
+    width: 100%;
+}
+.small input {
+    width: 95%;
+    margin-left: 2.5%;
+    padding: 8px 5px;
+    padding-left: 7%;
+    border-radius: 20px;
+    font-size: 1em;
+    background-image: url("Icons/search.png");
+    background-repeat: no-repeat;
+    background-size: 7% 100%;
+    background-color: white;
+}
+.bar .second .rest {
+    height: 30px;
+    display: inline-block;
+    width:5%; 
+    margin: 1% 4%;
+}
+.rest span {
+    width: 100%;
+}
+.rest span .js {
+    background-image: url("Icons/list.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+}
+.detor {
+    left: -200%;
+}
+.side {
+    max-width: 99%;
+}
+.flex1, .flex4 {
+    display: none;
+}
+.flex3 {
+    width: 100%;
+    margin-left: 0%;
+    overflow-x: auto;
+}
+.responsive {
+    height: 250px;
+}
+.flex3 .flow .add img {
+   height: 250px;  
+}
+.clear {
+    height: 200px;
+}
+.clear .flex7 {
+    display: inline-block;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: 100%;
+    height: 100%;
+}
+.clear .flex6 {
+    margin-bottom: 0px;
+    height: 50%;
+    display: none;
+}
+.clear .flex7 .product  {
+    display: inline-block;
+    float: left;
+    list-style-type: none;  
+    margin: 2.4% 1%;
+    margin-bottom: 2%;   
+    width: 23.2%;
+    height: 30%;
+}
+
+
+/*align the first box with its outer box*/
+.clear .flex7 .product:first-child  {
+    margin-left: 0px;
+}
+
+/*align the last box with its outer box*/
+.clear .flex7 .product:last-child  {
+    margin-right: 0px;
+}
+.clear .flex7 .last {
+    margin-left: 0%;
+}
+.clear .flex7 .last2 {
+    margin-right: 0%;
+}
+.clear .flex7 .product .pro {
+    display: inline-block;
+    margin: 0px;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    background-color: white;
+}
+.clear2 .con .advert-container .phones {
+    width: 6%;
+}
+.clear2 .con .advert-container .phones:hover{
+    width: 6.1%;
+    height: 96.1%;
+}
+.credits {
+    position: relative;
+    height: 250px;
+    border-radius: 5px;
+}
+.dits {
+    margin-top: 15px;
+}
+.credits .cre {
+    overflow-y: hidden;
+    height: 100%;
+}
+.credits .show {
+   position: absolute;
+   bottom: 0px;
+   height: 10%;
+   border-radius: 0px 0px 5px 5px;
+   background-color: white;
+   display: block;
+   width: 100%;   
+}
+.hid {
+   display: none;
+   border-radius: 0px 0px 5px 5px;
+   height: 350px;
+}
+.credits .show button{
+   width: 13%;
+   margin-left: 43.5%;
+   background-color: transparent;
+   color: orange;
+   font-weight: bold;
+   border: none;
+}
+.form {
+   display: none;
+}
+.information .information1 .information2 {
+    display: none;
+}
+.information  .appear {
+    display: inline-block;
+    float: left;
+    height: auto;
+    width: auto;
+    margin: 1%
+}
+.information .appear a {
+   height: 100%;
+   width: 100%;
+}
+.information {
+   height: 150px;
+}
+.information .information1 {
+   height: 70%;
+}
+.information .information1 .appear a {
+    display: inline-block;
+    padding: 5px;
+    color: white;
+    text-decoration: none;
+}
+.information .rights {
+    display: inline-block;
+    margin: auto;
+    height: 25%;
+    margin: 0.5% 0%;
+    text-align: center;
+    color: #aaa;
+    width: 100%;
+}
+.fixed {
+    display: none;
+}
+}
+
+@media only screen and (max-width: 750px) {
+.credits .show button{
+     width: 20%;
+     margin-left: 40%;
+     font-size: 0.8em;
+}
+.hid {
+   height: 400px;
+}
+.hid .show  {
+   height: 6%;
+}
+}
+
+@media only screen and (max-width: 700px) {
+.credits .show button {
+     width: 20%;
+     margin-left: 40%;
+} 
+
+.hid {
+   height: 400px;
+}
+.hid .show  {
+   height: 6%;
+}
+.detor {
+    left: -250%;
+}
+.information {
+     height: 170px;
+}
+.information .information1 {
+     height: 80%;
+}   
+}
+
+@media only screen and (max-width: 650px) {
+.logo {
+    width: 19%
+}
+.detor {
+    left: -420%;
+}
+.clear2 .con .advert-container .phones {
+    width: 8%;
+}
+.clear2 .con .advert-container .phones:hover{
+    width: 8.1%;
+    height: 96.1%;
+}
+.hid {
+   height: 450px;
+}
+}
+
+@media only screen and (max-width: 550px) {
+.detor {
+    left: -550%;
+}
+.hid {
+   height: 500px;
+}
+}
+
+@media only screen and (max-width: 500px) {
+.logo {
+    width: 20%
+}
+.account {
+    margin-left: 15%;
+}
+.detor {
+    left: -650%;
+}
+.credits .show button {
+     width: 25%;
+     margin-left: 37.5%;
+} 
+.hid {
+   height: 530px;
+}
+.information {
+     height: 210px;
+}
+}
+
+@media only screen and (max-width: 450px) {
+.detor {
+    left: -750%;
+}
+.hid {
+   height: 600px;
+}
+}
+
+@media only screen and (max-width: 400px) {
+.account {
+    margin-left: 8%;
+}
+.detor {
+    left: -300%;
+}
+.bar .second .rest {
+    width: 7%;
+}
+.logo {
+    width: 25%
+}
+.third {
+    width: 10%;
+    margin: 1%;
+}
+.clear2 {
+    height: 230px;
+}
+.clear2 .con .advert-container  {
+    margin-top: 3%;
+    height: 85%;
+}
+.clear2 .con .advert-container .phones:hover{
+    width: 8.1%;
+    height: 96.1%;
+}
+.credits .show button {
+     width: 30%;
+     margin-left: 35%;
+} 
+
+.hid {
+   height: 660px;
+}
+.hid .show  {
+   height: 3%;
+}
+.information {
+     height: 250px;
+}
+}
+
+@media only screen and (max-width: 360px) {
+.hid {
+   height: 700px;
+}
+}
+
+@media only screen and (max-width: 350px) {
+.second .around2 {
+    width: 20%;
+}
+.account {
+    margin-left: 2%;
+}
+.detor {
+    left: -350%;
+}
+.credits .show button {
+     width: 30%;
+     margin-left: 35%;
+     font-size: 0.7em;
+}
+.hid {
+   height: 800px;
+}
+.hid .show  {
+   height: 3%;
+}
+.information .information1 .appear a {
+    font-size: 0.9em;
+} 
+}
+
+@media only screen and (max-width: 300px) {
+.account {
+    margin-left: 1%;
+}
+.detor {
+    left: -400%;
+}
+.credits .show button {
+     width: 40%;
+     margin-left: 30%;
+}
+.hid {
+   height: 800px;
+}
+.information .information1 .appear a {
+    font-size: 0.8em;
+} 
+}
+@media only screen and (max-width: 283px) {
+.bar {
+    height: 150px;
+}
+}
